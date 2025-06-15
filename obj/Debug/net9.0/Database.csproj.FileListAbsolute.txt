@@ -1,0 +1,300 @@
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\appsettings.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.staticwebassets.runtime.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.staticwebassets.endpoints.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.exe
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.deps.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.runtimeconfig.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Database.pdb
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\MySql.Data.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.AssemblyInfo.cs
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.RazorAssemblyInfo.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.RazorAssemblyInfo.cs
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\scopedcss\bundle\Database.styles.css
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\scopedcss\projectbundle\Database.bundle.scp.css
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\ejsgmx2udg-b9sayid5wm.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\lq3yp5rzp5-61n19gt1b8.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\n0xv843wf1-xtxxf3hu2r.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\29qp9iyiaj-bqjiyaj88i.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\gbaa9up78k-c2jlpeoesf.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\su0f5856px-erw9l3u2r3.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\tosywvrref-aexeepp0ev.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\my854xy9e7-d7shbmvgxk.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\r6ynf25d8o-ausgxo2sd3.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\8c8v44eavf-k8d9w2qqmf.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\fhwiz88aii-cosvhxvwiu.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\da5f68cycd-ub07r2b239.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\f63rngcub5-fvhpjtyr6v.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\y1g1zrzoms-b7pk76d08c.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\besel97rdr-fsbi9cje9m.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\r2mxhic2lw-rzd6atqjts.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\6n5h68xks7-ee0r1s7dh0.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\nnkis5l03q-dxx9fxp4il.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\kg5fx8ftnv-jd9uben2k1.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\pcsg8c803u-khv3u5hwcm.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\1hsshd5v5r-r4e9w2rdcm.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\4qaa4skail-lcd1t2u6c8.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\nejs27unjf-c2oey78nd0.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\kvxckke12i-tdbxkamptv.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\abct1vxp65-j5mq2jizvt.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\4sryuqlytr-06098lyss8.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\8xvyjcboge-nvvlpmu67g.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\c85juld4qe-s35ty4nyc5.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\scnvty205g-pj5nd1wqec.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\maf84m4t7u-46ein0sx1k.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\u73e9l81qf-v0zj4ognzu.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\d4dfmlkyxq-37tfw0ft22.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\kj68j3k2bj-hrwsygsryq.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\6alv15gdvs-pk9g2wxc8p.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\3nbu2lqhu0-ft3s53vfgj.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\v9slcdnjnh-6cfz1n2cew.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\crexkl0pls-6pdc2jztkx.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\6y5ox259jb-493y06b0oq.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\k0j1jqe0p6-iovd86k7lj.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\dcj8pj53bv-vr1egmr9el.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\b0mres020u-kbrnm935zg.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\l8o1mxjnow-jj8uyg4cgr.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\6hj5qbp8xk-y7v9cxd14o.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\9ryd1ij3kh-notf2xhcfb.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\agajezo3w4-h1s4sie4z3.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\zolyey6s96-63fj8s7r0e.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\a9jpmr3cac-0j3bgjxly4.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\lva9skrhgp-47otxtyo56.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\shhe86n6jo-4v8eqarkd7.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\39iy3plajg-356vix0kms.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\dktbqnoipu-83jwlth58m.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\zyn2ogn3ia-mrlpezrjn3.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\1rzdel1ncg-lzl9nlhx6b.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\a0fo0xbbye-ag7o75518u.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\zbkv07jjof-x0q3zqp4vz.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\11fecoj1q3-0i3buxo5is.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\itp54zta2z-o1o13a6vjx.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\hp8ej6s5we-ttgo8qnofa.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\pivlvb9s2c-2z0ns9nrw6.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\8473rdbh04-muycvpuwrr.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\je5br03mlv-87fc7y1x7t.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\t9ud5v7tvc-mlv21k5csn.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\ohmla8clh5-qsi9n2di0o.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\wg3n4z6e7m-qsi9n2di0o.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.csproj.Up2Date
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\refint\Database.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.pdb
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\ref\Database.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\obj\Debug\net9.0\compressed\szygfj2w7w-5qggxx7avk.gz
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\enest\OneDrive\Escritorio\Asp Proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\appsettings.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.staticwebassets.runtime.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.staticwebassets.endpoints.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.exe
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.deps.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.runtimeconfig.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Database.pdb
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\MySql.Data.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\MySql.EntityFrameworkCore.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.csproj.AssemblyReference.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.AssemblyInfoInputs.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.AssemblyInfo.cs
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.RazorAssemblyInfo.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.RazorAssemblyInfo.cs
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.sourcelink.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\scopedcss\bundle\Database.styles.css
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\scopedcss\projectbundle\Database.bundle.scp.css
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\szygfj2w7w-5qggxx7avk.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\ejsgmx2udg-b9sayid5wm.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\lq3yp5rzp5-61n19gt1b8.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\n0xv843wf1-xtxxf3hu2r.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\29qp9iyiaj-t1cqhe9u97.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\gbaa9up78k-c2jlpeoesf.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\su0f5856px-sejl45xvog.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\tosywvrref-aexeepp0ev.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\my854xy9e7-xvp3kq03qx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\r6ynf25d8o-ausgxo2sd3.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\8c8v44eavf-22vffe00uq.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\fhwiz88aii-cosvhxvwiu.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\da5f68cycd-qesaa3a1fm.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\f63rngcub5-fvhpjtyr6v.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\y1g1zrzoms-tmc1g35s3z.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\besel97rdr-fsbi9cje9m.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\r2mxhic2lw-rxsg74s51o.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\6n5h68xks7-ee0r1s7dh0.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\nnkis5l03q-q9ht133ko3.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\kg5fx8ftnv-jd9uben2k1.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\pcsg8c803u-gye83jo8yx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\1hsshd5v5r-r4e9w2rdcm.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\4qaa4skail-wl58j5mj3v.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\nejs27unjf-c2oey78nd0.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\kvxckke12i-d4r6k3f320.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\abct1vxp65-j5mq2jizvt.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\4sryuqlytr-keugtjm085.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\8xvyjcboge-nvvlpmu67g.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\c85juld4qe-zub09dkrxp.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\scnvty205g-pj5nd1wqec.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\maf84m4t7u-43atpzeawx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\u73e9l81qf-v0zj4ognzu.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\d4dfmlkyxq-ynyaa8k90p.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\kj68j3k2bj-hrwsygsryq.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\6alv15gdvs-c63t5i9ira.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\3nbu2lqhu0-ft3s53vfgj.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\v9slcdnjnh-4094rpi4f9.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\crexkl0pls-6pdc2jztkx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\6y5ox259jb-hd3gran6i8.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\k0j1jqe0p6-iovd86k7lj.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\dcj8pj53bv-ltid2c489k.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\b0mres020u-kbrnm935zg.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\l8o1mxjnow-8vyfqsqgz1.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\6hj5qbp8xk-y7v9cxd14o.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\9ryd1ij3kh-u9q1upor1n.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\agajezo3w4-h1s4sie4z3.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\zolyey6s96-4d85u1mtcx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\a9jpmr3cac-0j3bgjxly4.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\lva9skrhgp-03hjc8e09r.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\shhe86n6jo-48y08845bh.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\39iy3plajg-356vix0kms.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\dktbqnoipu-83jwlth58m.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\zyn2ogn3ia-mrlpezrjn3.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\1rzdel1ncg-worgj0nhwm.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\a0fo0xbbye-gk0pw8i4co.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\zbkv07jjof-x0q3zqp4vz.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\11fecoj1q3-d6nrnj6jjx.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\itp54zta2z-m9qm4tazc0.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\hp8ej6s5we-ttgo8qnofa.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\pivlvb9s2c-jjsuc0puko.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\8473rdbh04-9vr69e8ynj.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\je5br03mlv-87fc7y1x7t.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\t9ud5v7tvc-mlv21k5csn.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\ohmla8clh5-qsi9n2di0o.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\compressed\wg3n4z6e7m-qsi9n2di0o.gz
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.csproj.Up2Date
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\refint\Database.dll
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.pdb
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\Database.genruntimeconfig.cache
+C:\Users\David Murillo\OneDrive - Universidad Tecnologica Centroamericana\U CEUTEC\X Periodo\722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2\admin_db_proyecto\Database\obj\Debug\net9.0\ref\Database.dll

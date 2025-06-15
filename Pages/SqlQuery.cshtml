@@ -1,0 +1,168 @@
+@page
+@model Database.Pages.SqlQueryModel
+@{
+    ViewData["Title"] = "Consulta SQL";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .query-container {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        .query-container h3 {
+            font-size: 1.5rem;
+            color: #343a40;
+        }
+        .query-container p {
+            color: #6c757d;
+        }
+        .CodeMirror {
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            height: 300px;
+            font-size: 1rem;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .results-container {
+            margin-top: 30px;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .results-table th, .results-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .results-table th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        .results-table td {
+            color: #343a40;
+        }
+        .alert {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .alert-danger {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .no-results {
+            text-align: center;
+            color: #6c757d;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    </style>
+}
+
+<div class="container">
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-@(Model.Message.Contains("éxito") ? "success" : "danger")" role="alert">
+            @Model.Message
+        </div>
+    }
+
+    <div class="query-container">
+        <h3>Editor de Consultas SQL</h3>
+        <form method="post" id="queryForm">
+            <textarea asp-for="Query" id="hiddenQuery" style="display:none;"></textarea>
+            <div id="queryEditor"></div>
+            <button type="submit" class="btn btn-primary mt-3">Ejecutar Consulta</button>
+        </form>
+    </div>
+
+    @if (Model.ResultsTable != null && Model.ResultsTable.Rows.Count > 0)
+    {
+        <div class="results-container">
+            <h4>Resultados de la Consulta</h4>
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        @foreach (System.Data.DataColumn column in Model.ResultsTable.Columns)
+                        {
+                            <th>@column.ColumnName</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (System.Data.DataRow row in Model.ResultsTable.Rows)
+                    {
+                        <tr>
+                            @foreach (var item in row.ItemArray)
+                            {
+                                <td>@item</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else if (!string.IsNullOrWhiteSpace(Model.Query))
+    {
+        <div class="no-results">
+            No se encontraron resultados para la consulta.
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/sql/sql.min.js"></script>
+    <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById('hiddenQuery'), {
+            lineNumbers: true,
+            mode: 'text/x-sql',
+            theme: 'dracula',
+            autofocus: true,
+            extraKeys: { "Ctrl-Enter": function () { document.getElementById('queryForm').submit(); } }
+        });
+        editor.setSize("100%", "300px");
+    </script>
+}

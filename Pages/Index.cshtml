@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio de Sesión";
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/login.css">
+<div class="login-container">
+    <div class="login-box animate__animated animate__fadeIn">
+        <div class="login-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/477/477103.png" alt="Database Icon" class="logo">
+            <h1>Administración de Bases de Datos</h1>
+            <p>Ingresa tus credenciales para acceder al sistema</p>
+        </div>
+        
+        <form method="post" class="login-form">
+            <div class="form-group">
+                <label for="username"><i class="fas fa-user"></i> Usuario</label>
+                <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password"><i class="fas fa-lock"></i> Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+            </div>
+            
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox" name="remember"> Recordar sesión
+                </label>
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </div>
+            
+            <button type="submit" class="login-button">Iniciar Sesión <i class="fas fa-arrow-right"></i></button>
+        </form>
+        
+        <div class="login-footer">
+            <p>¿No tienes una cuenta? <a href="#">Contacta al administrador</a></p>
+            <p class="version">v1.0.0</p>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+}
