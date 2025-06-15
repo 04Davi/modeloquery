@@ -292,7 +292,7 @@
             <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
             <li><a href="#"><i class="fas fa-table"></i> Tablas</a></li>
             <li><a href="#"><i class="fas fa-project-diagram"></i> Relaciones</a></li>
-            <li><a href="#"><i class="/SqlQuery"></i> Consulta SQL</a></li>
+            <li><a href="#"><i class="fas fa-terminal"></i> Consulta SQL</a></li>
             <li><a href="#"><i class="fas fa-users"></i> Usuarios</a></li>
             <li><a href="#"><i class="fas fa-key"></i> Permisos</a></li>
             <li><a href="#"><i class="fas fa-save"></i> Backups</a></li>
@@ -329,29 +329,28 @@
         
         <div class="features-grid">
             <!-- Crear Tabla -->
-            <a href="#" class="feature-card">
-                <div class="feature-icon">
-                    <i class="fas fa-table"></i>
+           <a asp-page="/CreateTable" class="feature-card">
+                <div class="feature-icon" style="background: linear-gradient(135deg, var(--secondary), #560bad);">
+                <i class="fas fa-edit"></i>
                 </div>
-                <h4>Crear Tabla</h4>
-            </a>
+                <h4>Crear Tablas</h4>
+                </a>
 
             <!-- Administrar Tablas -->
-            <a href="#" class="feature-card">
-                <div class="feature-icon" style="background: linear-gradient(135deg, var(--secondary), #560bad);">
-                    <i class="fas fa-edit"></i>
-                </div>
-                <h4>Administrar Tablas</h4>
-            </a>
+          <a href="/CreateRelationship" class="feature-card">
+    <div class="feature-icon" style="background: linear-gradient(135deg, var(--secondary), #560bad);">
+        <i class="fas fa-edit"></i>
+    </div>
+    <h4>Administrar Tablas</h4>
+</a>
 
             <!-- Relaciones -->
-            <a href="#" class="feature-card">
-                <div class="feature-icon" style="background: linear-gradient(135deg, var(--warning), #f3722c);">
-                    <i class="fas fa-project-diagram"></i>
-                </div>
-                <h4>Gestionar Relaciones</h4>
-            </a>
-
+            <a href="/ManageRelationships" class="feature-card">
+    <div class="feature-icon" style="background: linear-gradient(135deg, var(--warning), #f3722c);">
+        <i class="fas fa-project-diagram"></i>
+    </div>
+    <h4>Gestionar Relaciones</h4>
+</a>
             <!-- Consulta SQL -->
             <a asp-page="/SqlQuery" class="feature-card">
             <div class="feature-icon" style="background: linear-gradient(135deg, var(--success), #38b000);">

@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/CreateRelationship.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUmVsYXRpb25zaGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/CreateTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/ManageRelationships.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlUmVsYXRpb25zaGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/Shared/_ColumnsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Db2x1bW5zUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/David Murillo/OneDrive - Universidad Tecnologica Centroamericana/U CEUTEC/X Periodo/722 ADMINISTRACIÓN DE BASE DE DATOS I 2025Q2/admin_db_proyecto/Database/Pages/Shared/_Dashboard.cshtml]

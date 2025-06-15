@@ -7,8 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Agregar servicios para Razor Pages
+// Agregar servicios para Razor Pages y sesión
 builder.Services.AddRazorPages();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -21,7 +27,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
+
+app.UseSession(); // 👈 Habilitar middleware de sesión
 app.UseAuthorization();
 
 // Middleware para verificar la conexión a la base de datos
@@ -31,7 +40,7 @@ app.Use(async (context, next) =>
     {
         var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
         var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-        
+
         try
         {
             if (await dbContext.Database.CanConnectAsync())
@@ -51,7 +60,7 @@ app.Use(async (context, next) =>
             context.Items["DbConnectionMessage"] = $"❌ Error al conectar a la base de datos: {ex.Message}";
         }
     }
-    
+
     await next();
 });
 

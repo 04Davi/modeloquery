@@ -1,0 +1,49 @@
+@model List<Database.Pages.TableColumn>
+
+<table class="fields-table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Longitud</th>
+            <th>Nulo</th>
+            <th>Clave</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            var col = Model[i];
+            <tr>
+                <td>
+                    <input type="text" name="Columns[@i].Name" value="@col.Name" required />
+                </td>
+                <td>
+                    <select name="Columns[@i].DataType" required>
+                        @foreach (var type in ViewData["SqlDataTypes"] as List<Database.Pages.SqlDataType>)
+                        {
+                            <option value="@type.Name" selected="@(col.DataType == type.Name ? "selected" : null)">
+                                @type.Name
+                            </option>
+                        }
+                    </select>
+                </td>
+                <td>
+                    <input type="text" name="Columns[@i].Length" value="@col.Length" placeholder="Opcional" />
+                </td>
+                <td style="text-align:center;">
+                    <input type="hidden" name="Columns[@i].AllowNull" value="false" />
+                    <input type="checkbox" name="Columns[@i].AllowNull" value="true" @(col.AllowNull ? "checked" : "") />
+                </td>
+                <td style="text-align:center;">
+                    <input type="hidden" name="Columns[@i].IsPrimaryKey" value="false" />
+                    <input type="checkbox" name="Columns[@i].IsPrimaryKey" value="true" @(col.IsPrimaryKey ? "checked" : "") />
+                </td>
+                <td>
+                    <button type="submit" formaction="?handler=RemoveColumn&index=@i" class="delete-btn" title="Eliminar campo">🗑️</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

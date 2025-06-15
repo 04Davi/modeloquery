@@ -1,0 +1,145 @@
+@page
+@model Database.Pages.CreateTableModel
+@{
+    ViewData["Title"] = "Crear Nueva Tabla";
+}
+
+<div class="modal">
+    <div class="modal-header">
+        <h2>Crear Nueva Tabla</h2>
+        <button type="button" class="close-btn" onclick="window.history.back()">×</button>
+    </div>
+
+    <form method="post">
+        <div class="modal-body">
+            <label>Nombre de la tabla</label>
+            <input type="text" asp-for="TableName" placeholder="Ej: usuarios" class="input" required />
+
+            <h4>Campos de la tabla</h4>
+            <table class="fields-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Longitud</th>
+                        <th>Nulo</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Columns.Count; i++)
+                    {
+                        var col = Model.Columns[i];
+                        <tr>
+                            <td>
+                                <input type="text" name="Columns[@i].Name" value="@col.Name" required />
+                            </td>
+                            <td>
+                                <select name="Columns[@i].DataType" class="datatype-select" data-index="@i" required>
+                                    @foreach (var type in Model.SqlDataTypes)
+                                    {
+                                        <option value="@type.Name" selected="@(col.DataType == type.Name ? "selected" : null)">@type.Name</option>
+                                    }
+                                </select>
+                            </td>
+                            <td>
+                                <input type="text" name="Columns[@i].Length" value="@col.Length" class="length-input" data-index="@i" placeholder="Opcional" />
+                            </td>
+                            <td style="text-align:center;">
+                                <input type="hidden" name="Columns[@i].AllowNull" value="false" />
+                                <input type="checkbox" name="Columns[@i].AllowNull" value="true" @(col.AllowNull ? "checked" : "") />
+                            </td>
+                            <td>
+                                <button type="submit" formaction="?handler=RemoveColumn&index=@i" class="delete-btn" title="Eliminar campo">Eliminar</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <button type="submit" formaction="?handler=AddColumn" class="add-btn">+ Añadir campo</button>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="cancel-btn" onclick="window.history.back()">Cancelar</button>
+            <button type="submit" formaction="?handler=CreateTable" class="create-btn">Crear Tabla</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.SqlResult))
+    {
+        <div class="sql-result">
+            <pre>@Model.SqlResult</pre>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        const typeConfig = {
+            'INT': { requiresLength: false, placeholder: 'No aplica' },
+            'VARCHAR': { requiresLength: true, placeholder: 'Ej. 255 o MAX' },
+            'NVARCHAR': { requiresLength: true, placeholder: 'Ej. 255 o MAX' },
+            'CHAR': { requiresLength: true, placeholder: 'Ej. 1' },
+            'NCHAR': { requiresLength: true, placeholder: 'Ej. 1' },
+            'DATE': { requiresLength: false, placeholder: 'No aplica' },
+            'FLOAT': { requiresLength: false, placeholder: 'No aplica' },
+            'BIT': { requiresLength: false, placeholder: 'No aplica' },
+            'DECIMAL': { requiresLength: true, placeholder: 'Ej. 10,2' }
+        };
+
+        function updateLengthAndInputs() {
+            document.querySelectorAll('.datatype-select').forEach(select => {
+                const index = select.dataset.index;
+                const selectedType = select.value.toUpperCase();
+                const lengthInput = document.querySelector(`input.length-input[data-index='${index}']`);
+
+                if (typeConfig[selectedType] && typeConfig[selectedType].requiresLength) {
+                    lengthInput.style.display = 'inline-block';
+                    lengthInput.placeholder = typeConfig[selectedType].placeholder;
+                    lengthInput.required = true; // Asegurar que sea requerido solo para tipos que lo necesitan
+                } else {
+                    lengthInput.style.display = 'none';
+                    lengthInput.value = '';
+                    lengthInput.required = false; // No requerido para INT, etc.
+                }
+
+                lengthInput.addEventListener('input', function (e) {
+                    const value = e.target.value;
+                    if (selectedType === 'DECIMAL' && value && !/^\d+,\d+$/.test(value)) {
+                        e.target.setCustomValidity('Formato inválido. Use \'precision,scale\' (e.g., \'10,2\').');
+                    } else if (['VARCHAR', 'NVARCHAR'].includes(selectedType) && value && !/^\d+$|^MAX$/.test(value)) {
+                        e.target.setCustomValidity('Longitud inválida. Use un número entero o \'MAX\'.');
+                    } else if (['CHAR', 'NCHAR'].includes(selectedType) && value && !/^\d+$/.test(value)) {
+                        e.target.setCustomValidity('Longitud debe ser un número entero.');
+                    } else {
+                        e.target.setCustomValidity('');
+                    }
+                });
+            });
+        }
+
+        document.querySelectorAll('.datatype-select').forEach(select => {
+            select.addEventListener('change', updateLengthAndInputs);
+        });
+
+        document.addEventListener('DOMContentLoaded', updateLengthAndInputs);
+    </script>
+}
+
+<style>
+    .modal { max-width: 800px; margin: 2rem auto; background: #fff; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
+    .modal-header { display: flex; justify-content: space-between; align-items: center; }
+    .modal-body label { display: block; margin-top: 1rem; font-weight: bold; }
+    .input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
+    .fields-table { width: 100%; margin-top: 1rem; border-collapse: collapse; }
+    .fields-table th, .fields-table td { padding: 0.5rem; border-bottom: 1px solid #ddd; }
+    .fields-table td { vertical-align: middle; }
+    .add-btn, .delete-btn, .cancel-btn, .create-btn { margin-top: 1rem; padding: 0.5rem 1rem; border: none; border-radius: 6px; cursor: pointer; }
+    .add-btn { background: #e0f7fa; color: #00796b; }
+    .delete-btn { background: #ffebee; color: #c62828; }
+    .cancel-btn { background: #e0e0e0; color: #333; }
+    .create-btn { background: #6200ea; color: #fff; }
+    .sql-result { margin-top: 1rem; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-family: monospace; white-space: pre-wrap; }
+    .length-input[hidden] { display: none; }
+</style>

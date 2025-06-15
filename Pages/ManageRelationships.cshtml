@@ -1,0 +1,103 @@
+@page
+@model Database.Pages.ManageRelationshipsModel
+@{
+    ViewData["Title"] = "Gestionar Relaciones";
+}
+
+<div class="modal">
+    <div class="modal-header">
+        <h2>Gestionar Relaciones</h2>
+        <button type="button" class="close-btn" onclick="window.history.back()">×</button>
+    </div>
+
+    <form method="post">
+        <div class="modal-body">
+            @foreach (var table in Model.Tables)
+            {
+                <div class="table-section">
+                    <h3>@table.Name</h3>
+                    <label>Clave Primaria</label>
+                    <select asp-items="new SelectList(table.Columns.Select(c => c.Name), table.PrimaryKey)" asp-for="@table.PrimaryKey" class="input" onchange="this.form.submit()"></select>
+
+                    <h4>Columnas</h4>
+                    @foreach (var col in table.Columns)
+                    {
+                        <div class="column-row">
+                            <span>@col.Name (@col.DataType)</span>
+                            <input type="checkbox" asp-for="@col.IsPrimaryKey" onchange="this.form.submit()" /> PK
+                            <input type="checkbox" asp-for="@col.IsForeignKey" onchange="this.form.submit()" /> FK
+                            @if (col.IsForeignKey)
+                            {
+                                <select asp-items="new SelectList(Model.Tables.Where(t => t.Name != table.Name).Select(t => t.Name), col.ReferenceTable)" asp-for="@col.ReferenceTable" class="input" style="width: 120px;" onchange="this.form.submit()"></select>
+                                <select asp-items="new SelectList(Model.Tables.FirstOrDefault(t => t.Name == col.ReferenceTable)?.Columns.Select(c => c.Name) ?? new List<string>(), col.ReferenceColumn)" asp-for="@col.ReferenceColumn" class="input" style="width: 120px;" onchange="this.form.submit()"></select>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+
+            <button type="submit" class="create-btn">Guardar Cambios</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.SqlResult))
+    {
+        <div class="sql-result">
+            <pre>@Model.SqlResult</pre>
+        </div>
+    }
+
+    <div class="diagram">
+        <h3>Diagrama de Relaciones</h3>
+        <div class="diagram-container">
+            @foreach (var table in Model.Tables)
+            {
+                <div class="table-box" style="left: @(100 * Model.Tables.IndexOf(table))px;">
+                    <h4>@table.Name</h4>
+                    <ul>
+                        @foreach (var col in table.Columns)
+                        {
+                            <li>@col.Name @(col.IsPrimaryKey ? "(PK)" : "") @(col.IsForeignKey ? $"(FK -> {col.ReferenceTable}.{col.ReferenceColumn})" : "")</li>
+                        }
+                    </ul>
+                    @if (!string.IsNullOrEmpty(table.PrimaryKey))
+                    {
+                        <div class="pk-indicator">PK: @table.PrimaryKey</div>
+                    }
+                </div>
+            }
+            <!-- Líneas de relación dinámicas -->
+            @foreach (var table in Model.Tables)
+            {
+                foreach (var col in table.Columns)
+                {
+                    if (col.IsForeignKey && !string.IsNullOrEmpty(col.ReferenceTable) && !string.IsNullOrEmpty(col.ReferenceColumn))
+                    {
+                        var refTable = Model.Tables.FirstOrDefault(t => t.Name == col.ReferenceTable);
+                        if (refTable != null)
+                        {
+                            int sourceIndex = Model.Tables.IndexOf(table);
+                            int targetIndex = Model.Tables.IndexOf(refTable);
+                            <div class="relation-line" style="left: @(100 * sourceIndex + 100)px; width: @(100 * (targetIndex - sourceIndex))px;"></div>
+                        }
+                    }
+                }
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .modal { max-width: 1200px; margin: 2rem auto; background: #fff; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
+    .modal-header { display: flex; justify-content: space-between; align-items: center; }
+    .table-section { margin-bottom: 2rem; border: 1px solid #ccc; padding: 1rem; border-radius: 6px; }
+    .column-row { display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem; }
+    .input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
+    .create-btn { margin-top: 1rem; padding: 0.5rem 1rem; background: #6200ea; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
+    .sql-result { margin-top: 1rem; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-family: monospace; white-space: pre-wrap; }
+    .diagram { margin-top: 2rem; }
+    .diagram-container { position: relative; height: 200px; border: 1px solid #ccc; border-radius: 6px; overflow-x: auto; white-space: nowrap; }
+    .table-box { display: inline-block; width: 200px; vertical-align: top; background: #f9f9f9; padding: 0.5rem; margin-right: 1rem; border: 1px solid #ddd; border-radius: 4px; position: absolute; }
+    .pk-indicator { font-weight: bold; color: #006400; }
+    .relation-line { height: 2px; background: #000; position: absolute; top: 50%; }
+</style>
