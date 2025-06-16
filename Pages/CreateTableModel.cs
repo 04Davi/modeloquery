@@ -63,39 +63,28 @@ namespace Database.Pages
             return Page();
         }
 
-        public IActionResult OnPostCreateTable()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
-                SqlResult = "❌ El modelo no es válido. Por favor, revisa los campos.";
+                SqlResult = "Por favor, completa todos los campos obligatorios.";
                 return Page();
             }
 
             try
             {
-                string sql = GenerateCreateTableSql(TableName, Columns);
-                SqlResult = sql;
+                var sql = GenerarSqlCrearTabla(); // Usa el método que te mostré antes
 
-                var connectionString = _configuration.GetConnectionString("DefaultConnection");
+                using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+                using var command = new SqlCommand(sql, connection);
+                await connection.OpenAsync();
+                await command.ExecuteNonQueryAsync();
 
-                using (var conn = new SqlConnection(connectionString))
-                {
-                    conn.Open();
-                    using (var cmd = new SqlCommand(sql, conn))
-                    {
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-
-                SqlResult += "\n\n✅ Tabla creada con éxito.";
+                SqlResult = "Tabla creada correctamente.";
             }
             catch (SqlException ex)
             {
-                SqlResult = $"❌ Error SQL: {ex.Message}";
-            }
-            catch (Exception ex)
-            {
-                SqlResult = $"❌ Error: {ex.Message}";
+                SqlResult = $"Error SQL: {ex.Message}";
             }
 
             return Page();
@@ -205,6 +194,39 @@ namespace Database.Pages
                 new SqlDataType { Name = "BIT", RequiresLength = false },
                 new SqlDataType { Name = "DECIMAL", RequiresPrecisionScale = true }
             };
+        }
+
+        public string GenerarSqlCrearTabla()
+        {
+            var primaryKeys = Columns.Where(c => c.IsPrimaryKey).Select(c => c.Name).ToList();
+
+            var sb = new StringBuilder();
+            sb.AppendLine($"CREATE TABLE {TableName} (");
+
+            for (int i = 0; i < Columns.Count; i++)
+            {
+                var col = Columns[i];
+                sb.Append($"    {col.Name} {col.DataType}");
+
+                if (!string.IsNullOrEmpty(col.Length))
+                    sb.Append($"({col.Length})");
+
+                if (!col.AllowNull)
+                    sb.Append(" NOT NULL");
+
+                if (i < Columns.Count - 1 || primaryKeys.Any())
+                    sb.Append(",");
+
+                sb.AppendLine();
+            }
+
+            if (primaryKeys.Any())
+            {
+                sb.AppendLine($"    PRIMARY KEY ({string.Join(", ", primaryKeys)})");
+            }
+
+            sb.AppendLine(");");
+            return sb.ToString();
         }
     }
 

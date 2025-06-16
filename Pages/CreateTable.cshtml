@@ -23,34 +23,41 @@
                         <th>Tipo</th>
                         <th>Longitud</th>
                         <th>Nulo</th>
+                        <th>Clave primaria</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
                     @for (int i = 0; i < Model.Columns.Count; i++)
                     {
-                        var col = Model.Columns[i];
                         <tr>
                             <td>
-                                <input type="text" name="Columns[@i].Name" value="@col.Name" required />
+                                <input asp-for="Columns[@i].Name" class="input" />
                             </td>
                             <td>
-                                <select name="Columns[@i].DataType" class="datatype-select" data-index="@i" required>
-                                    @foreach (var type in Model.SqlDataTypes)
-                                    {
-                                        <option value="@type.Name" selected="@(col.DataType == type.Name ? "selected" : null)">@type.Name</option>
-                                    }
+                                <select asp-for="Columns[@i].DataType" class="input">
+                                    <option>INT</option>
+                                    <option>VARCHAR</option>
+                                    <option>NVARCHAR</option>
+                                    <option>CHAR</option>
+                                    <option>NCHAR</option>
+                                    <option>DATE</option>
+                                    <option>FLOAT</option>
+                                    <option>BIT</option>
+                                    <option>DECIMAL</option>
                                 </select>
                             </td>
                             <td>
-                                <input type="text" name="Columns[@i].Length" value="@col.Length" class="length-input" data-index="@i" placeholder="Opcional" />
+                                <input asp-for="Columns[@i].Length" class="input" placeholder="Ej. 255 o MAX" />
                             </td>
                             <td style="text-align:center;">
-                                <input type="hidden" name="Columns[@i].AllowNull" value="false" />
-                                <input type="checkbox" name="Columns[@i].AllowNull" value="true" @(col.AllowNull ? "checked" : "") />
+                                <input asp-for="Columns[@i].AllowNull" type="checkbox" />
+                            </td>
+                            <td style="text-align:center;">
+                                <input asp-for="Columns[@i].IsPrimaryKey" type="checkbox" /> <!-- Aquí el checkbox -->
                             </td>
                             <td>
-                                <button type="submit" formaction="?handler=RemoveColumn&index=@i" class="delete-btn" title="Eliminar campo">Eliminar</button>
+                                <button type="submit" formaction="?handler=RemoveColumn" name="removeIndex" value="@i" class="delete-btn">Eliminar</button>
                             </td>
                         </tr>
                     }
@@ -92,7 +99,7 @@
             document.querySelectorAll('.datatype-select').forEach(select => {
                 const index = select.dataset.index;
                 const selectedType = select.value.toUpperCase();
-                const lengthInput = document.querySelector(`input.length-input[data-index='${index}']`);
+                const lengthInput = document.querySelector(input.length-input[data-index='${index}']);
 
                 if (typeConfig[selectedType] && typeConfig[selectedType].requiresLength) {
                     lengthInput.style.display = 'inline-block';
