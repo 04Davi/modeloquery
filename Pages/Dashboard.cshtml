@@ -290,14 +290,11 @@
         </div>
         <ul class="sidebar-menu">
             <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-            <li><a href="#"><i class="fas fa-table"></i> Tablas</a></li>
-            <li><a href="#"><i class="fas fa-project-diagram"></i> Relaciones</a></li>
-            <li><a href="#"><i class="fas fa-terminal"></i> Consulta SQL</a></li>
-            <li><a href="#"><i class="fas fa-users"></i> Usuarios</a></li>
-            <li><a href="#"><i class="fas fa-key"></i> Permisos</a></li>
-            <li><a href="#"><i class="fas fa-save"></i> Backups</a></li>
-            <li><a href="#"><i class="fas fa-chart-line"></i> Analítica</a></li>
-            <li><a href="#"><i class="fas fa-cog"></i> Configuración</a></li>
+            <li><a href="/CreateTable"><i class="fas fa-table"></i> Crear Tablas</a></li>
+            <li><a href="/CreateRelationship"><i class="fa-solid fa-table-list"></i> Administrar Tablas</a></li>
+            <li><a href="/ManageRelationships"><i class="fas fa-project-diagram"></i> Relaciones</a></li>
+            <li><a href="/SqlQuery"><i class="fas fa-terminal"></i> Consulta SQL</a></li>
+  
         </ul>
     </div>
 }
@@ -359,31 +356,17 @@
                      <h4>Consulta SQL</h4>
                     </a>
 
-            <!-- Importar/Exportar -->
-            <a href="#" class="feature-card">
-                <div class="feature-icon" style="background: linear-gradient(135deg, var(--danger), #d00000);">
-                    <i class="fas fa-file-import"></i>
-                </div>
-                <h4>Importar/Exportar</h4>
-            </a>
 
-            <!-- Seguridad -->
-            <a href="#" class="feature-card">
-                <div class="feature-icon" style="background: linear-gradient(135deg, #7209b7, #480ca8);">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <h4>Seguridad</h4>
-            </a>
         </div>
     </div>
 </div>
 
 @section Scripts {
     <script>
-        // Aquí irá la lógica JavaScript para interactividad
+ 
         document.addEventListener('DOMContentLoaded', function() {
             console.log('Dashboard cargado');
-            // Podemos añadir funcionalidades dinámicas aquí
+
         });
     </script>
 }

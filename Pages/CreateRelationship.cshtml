@@ -4,12 +4,20 @@
     ViewData["Title"] = "Crear Relación";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css">      
+    <link rel="stylesheet" href="~/css/style.css" />
+}
 <div class="modal">
    <div class="modal">
     <div class="modal-header">
         <h2>Crear Relación</h2>
-        <button type="button" class="close-btn" onclick="window.location.href='/Dashboard'">×</button>
-    </div>
+          <button type="button" class="close-btn" onclick="window.location.href='/Dashboard'" title="Regresar" >
+           <i class="fas fa-arrow-left"></i>
+</button>
+    </div>
 
     <form method="post">
         <div class="modal-body">
@@ -46,12 +54,3 @@
         </div>
     }
 </div>
-
-<style>
-    .modal { max-width: 800px; margin: 2rem auto; background: #fff; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
-    .modal-header { display: flex; justify-content: space-between; align-items: center; }
-    .modal-body label { display: block; margin-top: 1rem; font-weight: bold; }
-    .input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
-    .create-btn { margin-top: 1rem; padding: 0.5rem 1rem; background: #6200ea; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
-    .sql-result { margin-top: 1rem; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-family: monospace; white-space: pre-wrap; }
-</style>

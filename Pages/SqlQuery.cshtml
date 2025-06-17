@@ -5,115 +5,42 @@
 }
 
 @section Styles {
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .query-container {
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            padding: 25px;
-            margin-bottom: 30px;
-        }
-        .query-container h3 {
-            font-size: 1.5rem;
-            color: #343a40;
-        }
-        .query-container p {
-            color: #6c757d;
-        }
-        .CodeMirror {
-            border: 1px solid #ced4da;
-            border-radius: 8px;
-            height: 300px;
-            font-size: 1rem;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-            color: #ffffff;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
-        .results-container {
-            margin-top: 30px;
-        }
-        .results-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        }
-        .results-table th, .results-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #e9ecef;
-        }
-        .results-table th {
-            background-color: #007bff;
-            color: white;
-            font-weight: bold;
-        }
-        .results-table td {
-            color: #343a40;
-        }
-        .alert {
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 1rem;
-        }
-        .alert-success {
-            background-color: #d4edda;
-            color: #155724;
-        }
-        .alert-danger {
-            background-color: #f8d7da;
-            color: #721c24;
-        }
-        .no-results {
-            text-align: center;
-            color: #6c757d;
-            font-size: 1.2rem;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css">      
+    <link rel="stylesheet" href="~/css/style.css" />
 }
 
 <div class="container">
+
     @if (!string.IsNullOrEmpty(Model.Message))
     {
-        <div class="alert alert-@(Model.Message.Contains("éxito") ? "success" : "danger")" role="alert">
+        <div class="alert @(Model.Message.Contains("éxito") ? "alert-success" : Model.Message.Contains("seguro") ? "alert-warning" : "alert-danger")" role="alert">
             @Model.Message
         </div>
     }
 
+  <div class="modal-header">
+        <h2>Editor de Consultas SQL</h2>
+<button type="button" class="close-btn" onclick="window.location.href='/Dashboard'" title="Regresar" >
+            <i class="fas fa-arrow-left"></i>
+</button>
+    </div>
+
     <div class="query-container">
-        <h3>Editor de Consultas SQL</h3>
         <form method="post" id="queryForm">
+            <!-- Campo oculto para confirmación -->
+            <input type="hidden" name="confirm" value="@(Model.IsDangerousCommand ? "true" : "")" />
+
+            <!-- Campo oculto para el textarea original -->
             <textarea asp-for="Query" id="hiddenQuery" style="display:none;"></textarea>
+
+            <!-- Editor de código -->
             <div id="queryEditor"></div>
-            <button type="submit" class="btn btn-primary mt-3">Ejecutar Consulta</button>
+
+            <button type="submit" class="btn btn-primary mt-3">
+                @(Model.IsDangerousCommand && !string.IsNullOrEmpty(Model.Message) && Model.Message.Contains("¿Estás seguro") ? "Confirmar Ejecución" : "Ejecutar Consulta")
+            </button>
         </form>
     </div>
 
@@ -136,7 +63,7 @@
                         <tr>
                             @foreach (var item in row.ItemArray)
                             {
-                                <td>@item</td>
+                                <td>@item.ToString()</td>
                             }
                         </tr>
                     }
@@ -144,7 +71,7 @@
             </table>
         </div>
     }
-    else if (!string.IsNullOrWhiteSpace(Model.Query))
+    else if (!string.IsNullOrWhiteSpace(Model.Query) && Model.ResultsTable?.Rows.Count == 0)
     {
         <div class="no-results">
             No se encontraron resultados para la consulta.
@@ -153,16 +80,28 @@
 </div>
 
 @section Scripts {
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/sql/sql.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/sql/sql.min.js"></script>      
+
     <script>
+        // Inicializar CodeMirror
         var editor = CodeMirror.fromTextArea(document.getElementById('hiddenQuery'), {
             lineNumbers: true,
             mode: 'text/x-sql',
             theme: 'dracula',
             autofocus: true,
-            extraKeys: { "Ctrl-Enter": function () { document.getElementById('queryForm').submit(); } }
+            extraKeys: {
+                "Ctrl-Enter": function () {
+                    document.getElementById('queryForm').submit();
+                }
+            }
         });
+
         editor.setSize("100%", "300px");
+
+        // Sincronizar antes de enviar formulario
+        document.getElementById("queryForm").addEventListener("submit", function () {
+            document.getElementById("hiddenQuery").value = editor.getValue();
+        });
     </script>
 }

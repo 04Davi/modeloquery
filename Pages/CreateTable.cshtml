@@ -4,12 +4,22 @@
     ViewData["Title"] = "Crear Nueva Tabla";
 }
 
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css">      
+    <link rel="stylesheet" href="~/css/style.css" />
+}
 <div class="modal">
+    <!-- Encabezado -->
     <div class="modal-header">
         <h2>Crear Nueva Tabla</h2>
-        <button type="button" class="close-btn" onclick="window.history.back()">×</button>
+       <button type="button" class="close-btn" onclick="window.location.href='/Dashboard'" title="Regresar" >
+            <i class="fas fa-arrow-left"></i>
+         </button>   
     </div>
 
+    <!-- Formulario -->
     <form method="post">
         <div class="modal-body">
             <label>Nombre de la tabla</label>
@@ -32,10 +42,10 @@
                     {
                         <tr>
                             <td>
-                                <input asp-for="Columns[@i].Name" class="input" />
+                                <input asp-for="Columns[@i].Name" class="input field-name" />
                             </td>
                             <td>
-                                <select asp-for="Columns[@i].DataType" class="input">
+                                <select asp-for="Columns[@i].DataType" class="input datatype-select" data-index="@i">
                                     <option>INT</option>
                                     <option>VARCHAR</option>
                                     <option>NVARCHAR</option>
@@ -48,16 +58,20 @@
                                 </select>
                             </td>
                             <td>
-                                <input asp-for="Columns[@i].Length" class="input" placeholder="Ej. 255 o MAX" />
+                                <input asp-for="Columns[@i].Length" class="input length-input" data-index="@i"
+                                       placeholder="Ej. 255 o MAX" />
                             </td>
                             <td style="text-align:center;">
                                 <input asp-for="Columns[@i].AllowNull" type="checkbox" />
                             </td>
                             <td style="text-align:center;">
-                                <input asp-for="Columns[@i].IsPrimaryKey" type="checkbox" /> <!-- Aquí el checkbox -->
+                                <input asp-for="Columns[@i].IsPrimaryKey" type="checkbox" />
                             </td>
                             <td>
-                                <button type="submit" formaction="?handler=RemoveColumn" name="removeIndex" value="@i" class="delete-btn">Eliminar</button>
+                                <button type="submit" formaction="?handler=RemoveColumn" name="removeIndex" value="@i"
+                                        class="delete-btn">
+                                    Eliminar
+                                </button>
                             </td>
                         </tr>
                     }
@@ -67,12 +81,14 @@
             <button type="submit" formaction="?handler=AddColumn" class="add-btn">+ Añadir campo</button>
         </div>
 
+        <!-- Pie del formulario -->
         <div class="modal-footer">
             <button type="button" class="cancel-btn" onclick="window.history.back()">Cancelar</button>
             <button type="submit" formaction="?handler=CreateTable" class="create-btn">Crear Tabla</button>
         </div>
     </form>
 
+    <!-- Mostrar resultado SQL si existe -->
     @if (!string.IsNullOrEmpty(Model.SqlResult))
     {
         <div class="sql-result">
@@ -83,6 +99,7 @@
 
 @section Scripts {
     <script>
+        // Configuración por tipo de dato
         const typeConfig = {
             'INT': { requiresLength: false, placeholder: 'No aplica' },
             'VARCHAR': { requiresLength: true, placeholder: 'Ej. 255 o MAX' },
@@ -95,27 +112,28 @@
             'DECIMAL': { requiresLength: true, placeholder: 'Ej. 10,2' }
         };
 
-        function updateLengthAndInputs() {
+        function updateLengthInputs() {
             document.querySelectorAll('.datatype-select').forEach(select => {
                 const index = select.dataset.index;
                 const selectedType = select.value.toUpperCase();
-                const lengthInput = document.querySelector(input.length-input[data-index='${index}']);
+                const lengthInput = document.querySelector(.length-input[data-index='${index}']);
 
                 if (typeConfig[selectedType] && typeConfig[selectedType].requiresLength) {
                     lengthInput.style.display = 'inline-block';
                     lengthInput.placeholder = typeConfig[selectedType].placeholder;
-                    lengthInput.required = true; // Asegurar que sea requerido solo para tipos que lo necesitan
+                    lengthInput.required = true;
                 } else {
                     lengthInput.style.display = 'none';
                     lengthInput.value = '';
-                    lengthInput.required = false; // No requerido para INT, etc.
+                    lengthInput.required = false;
                 }
 
+                // Validaciones en tiempo real
                 lengthInput.addEventListener('input', function (e) {
-                    const value = e.target.value;
+                    const value = e.target.value.trim();
                     if (selectedType === 'DECIMAL' && value && !/^\d+,\d+$/.test(value)) {
                         e.target.setCustomValidity('Formato inválido. Use \'precision,scale\' (e.g., \'10,2\').');
-                    } else if (['VARCHAR', 'NVARCHAR'].includes(selectedType) && value && !/^\d+$|^MAX$/.test(value)) {
+                    } else if (['VARCHAR', 'NVARCHAR'].includes(selectedType) && value && !/^\d+$|^MAX$/i.test(value)) {
                         e.target.setCustomValidity('Longitud inválida. Use un número entero o \'MAX\'.');
                     } else if (['CHAR', 'NCHAR'].includes(selectedType) && value && !/^\d+$/.test(value)) {
                         e.target.setCustomValidity('Longitud debe ser un número entero.');
@@ -126,27 +144,13 @@
             });
         }
 
-        document.querySelectorAll('.datatype-select').forEach(select => {
-            select.addEventListener('change', updateLengthAndInputs);
-        });
+        // Asignar eventos iniciales
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.datatype-select').forEach(select => {
+                select.addEventListener('change', updateLengthInputs);
+            });
 
-        document.addEventListener('DOMContentLoaded', updateLengthAndInputs);
+            updateLengthInputs(); // Inicializar configuración al cargar
+        });
     </script>
 }
-
-<style>
-    .modal { max-width: 800px; margin: 2rem auto; background: #fff; border-radius: 10px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
-    .modal-header { display: flex; justify-content: space-between; align-items: center; }
-    .modal-body label { display: block; margin-top: 1rem; font-weight: bold; }
-    .input { width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
-    .fields-table { width: 100%; margin-top: 1rem; border-collapse: collapse; }
-    .fields-table th, .fields-table td { padding: 0.5rem; border-bottom: 1px solid #ddd; }
-    .fields-table td { vertical-align: middle; }
-    .add-btn, .delete-btn, .cancel-btn, .create-btn { margin-top: 1rem; padding: 0.5rem 1rem; border: none; border-radius: 6px; cursor: pointer; }
-    .add-btn { background: #e0f7fa; color: #00796b; }
-    .delete-btn { background: #ffebee; color: #c62828; }
-    .cancel-btn { background: #e0e0e0; color: #333; }
-    .create-btn { background: #6200ea; color: #fff; }
-    .sql-result { margin-top: 1rem; background: #f5f5f5; padding: 1rem; border-radius: 6px; font-family: monospace; white-space: pre-wrap; }
-    .length-input[hidden] { display: none; }
-</style>
